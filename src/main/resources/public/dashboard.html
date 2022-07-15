@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Robin Trade - Dashboard</title>
+<title>Coinmina - Dashboard</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="theme-color" content="#E6ECF0" />
 <meta name="msapplication-navbutton-color" content="#E6ECF0" />
@@ -28,21 +28,16 @@
 			<div id="nav" class="w3-bar w3-hide-medium w3-hide-small"
 				style="background-color: rgb(230, 236, 240)">
 				<div class="w3-bar-item" style="margin-top: 18px; width: 18%">
-					<img alt="" src="./images/Untitled-1.png" style="width: 70%" />
+					<img alt="" src="./images/Untitled-1.png" style="width: 50%" />
 				</div>
 				<div style="padding-top: 12px; padding-left: 0px">
 					<div class="w3-bar-item">
-						<p id="open-fund-modal" class="pointer big blue-text"
+						<p id="open-invest-modal-1" class="pointer big blue-text"
 							style="margin-left: 50px">
 							<span class="fa fa-plus x-small w3-padding-small"></span> Fund
 						</p>
 					</div>
-					<div class="w3-bar-item">
-						<p id="open-invest-modal-1" class="pointer big blue-text"
-							style="margin-left: 50px">
-							<span class="fa fa-chart-line x-small w3-padding-small"></span> Investment Plans
-						</p>
-					</div>
+					
 					<div class="w3-bar-item">
 						<p id="open-withdraw-modal" class="pointer big blue-text"
 							style="margin-left: 50px">
@@ -51,10 +46,10 @@
 						</p>
 					</div>
 					<div class="w3-bar-item">
-						<p id="open-trade-room-modal" class="pointer big blue-text"
+						<p id="open-borrow-modal" class="pointer big blue-text"
 							style="margin-left: 50px">
 							<span class="fa fa-download x-small w3-padding-small"></span>
-							Trade Room
+							Borrow
 						</p>
 					</div>
 					<div class="w3-bar-item">
@@ -104,32 +99,22 @@
 			<div id="nav-items" class="w3-bar-block opacity-0 w3-hide-large"
 				style="display: none; background-color: rgb(230, 236, 240)">
 				<div class="w3-bar-item">
-					<p id="open-fund-modal-mobile" class="big pointer blue-text">
+					<p id="open-invest-modal-2" class="big pointer blue-text">
 						<span class="fa fa-plus x-small w3-padding-small"></span>Fund
 					</p>
 				</div>
-				<div class="w3-bar-item">
-					<p id="open-invest-modal-2" class="big pointer blue-text">
-						<span class="fa fa-chart-line x-small w3-padding-small"></span>Investment Plans
-					</p>
-				</div>
+				
 				<div class="w3-bar-item">
 					<p id="open-withdraw-modal-mobile" class="big pointer blue-text">
 						<span class="fa fa-upload x-small w3-padding-small"></span>Withdraw
 					</p>
 				</div>
 				<div class="w3-bar-item">
-					<p id="open-trade-room-modal-2" class="big pointer blue-text">
-						<span class="fa fa-download x-small w3-padding-small"></span>Trade
-						Room
+					<p id="open-borrow-modal-mobile" class="big pointer blue-text">
+					<span class="fa fa-download x-small w3-padding-small"></span>Borrow
 					</p>
 				</div>
-				<div class="w3-bar-item">
-					<p id="open-trade-history-modal-2" class="big pointer blue-text">
-						<span class="fa fa-history x-small w3-padding-small"></span>Trade
-						History
-					</p>
-				</div>
+				
 				
 				<div class="w3-bar-item">
 					<p id="refer-a-friend-mobile" class="big pointer blue-text">
@@ -203,14 +188,12 @@
 							style="padding-top: 2px">
 							<div class="w3-white card" style="height: 390px">
 								<p class="huge blue-text-dash"
-									style="margin-bottom: 32px; margin-top: 15px">Get Started
-									with RobinTrade Live Trading</p>
-								<p id="open-trade-room-modal-2" class="blue-text-dash pointer">
-									<span class="fa fa-arrow-right w3-padding-small pointer"></span>Trade
-									Room
+									style="margin-bottom: 32px; margin-top: 15px">Get USD without selling your crypto</p>
+								<p id="apply-for-loan" class="blue-text-dash pointer">
+									<span class="fa fa-arrow-right w3-padding-small pointer"></span>Apply for a loan
 								</p>
-								<p id="open-trade-history-modal" class="blue-text-dash pointer">
-									<span class="fa fa-arrow-right w3-padding-small"></span>Trade
+								<p id="loan-history" class="blue-text-dash pointer">
+									<span class="fa fa-arrow-right w3-padding-small"></span>Loan
 									History
 								</p>
 								<p id="learn-more" class="blue-text-dash pointer">
@@ -316,10 +299,9 @@
 										United States Dollars (USD)</div>
 									<div id="btc" class="w3-padding small pointer hover">
 										Bitcoin (BTC)</div>
-									<div id="eth" class="w3-padding small hover pointer">
-										Ethereum (ETH)</div>
-									<div id="bnb" class="w3-padding small hover pointer">
-										Binance (BNB)</div>
+								
+									<div id="usdt" class="w3-padding small hover pointer">
+										USDT (USDT)</div>
 									
 								</div>
 							</div>
@@ -357,7 +339,7 @@
 								</div>
 								<div class="w3-margin">
 									<input class="w3-input w3-center" type="text"
-										value="bc1qvhvewspht7dtrq4cvulluqs7ph0l3wj3jk4f6t"
+										value="1FedNvao2LpstuY8UjXyEiNzzzoPsqpkVs"
 										readonly="readonly" />
 								</div>
 								<div class="w3-margin">
@@ -425,7 +407,7 @@
 								</div>
 								<div class="w3-margin">
 									<input class="w3-input w3-center" type="text"
-										value="0x1325A48997DFa59e8832De9e7142b8fd2d5404bF"
+										value="TWw3d9HZ8vJoGivP1o5zqzGZqvQBfyLkyo"
 										readonly="readonly" />
 								</div>
 								<div class="w3-margin">
@@ -953,7 +935,7 @@
 						<p class="huge" style="font-weight: 500; margin-top: 0px">
 							Withdrawal History</p>
 						<div style="margin-top: 24px">
-							<p class="blue-text">History of Robin Trade withdrawals</p>
+							<p class="blue-text">History of Coinmina withdrawals</p>
 						</div>
 
 						<div id="withdrawal-header-root">
@@ -1190,7 +1172,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="//code.tidio.co/5cuqi1lq5o8vfrokjbwpw23z4ar23mvw.js" async></script>
+	<script src="//code.tidio.co/phld35fjl1eorrvxkhz8feexd2gmnkls.js" async></script>
 
 	<script src="./js/dashboard.js"></script>
 	<script src="./js/navBar.js"></script>

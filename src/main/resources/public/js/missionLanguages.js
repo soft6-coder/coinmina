@@ -2,11 +2,11 @@
 let content = [
   [
     { contentName: "headerTitle" },
-    { en: "Robin Trade INVESTMENTS" },
+    { en: "Coinmina INVESTMENTS" },
     { spn: "" },
     { fre: "" },
   ],
-  [{ contentName: "title" }, { en: "Robin Trade" }, { spn: "" }, { fre: "" }],
+  [{ contentName: "title" }, { en: "Coinmina" }, { spn: "" }, { fre: "" }],
   [{ contentName: "products" }, { en: "Products" }, { spn: "" }, { fre: "" }],
   [
     { contentName: "institutions" },
@@ -33,7 +33,7 @@ let content = [
   ],
   [
     { contentName: "content1" },
-    { en: "Robin Trade Mission" },
+    { en: "Coinmina Mission" },
     { spn: "" },
     { fre: "" },
   ],
@@ -229,7 +229,7 @@ let content = [
   ],
   [
     { contentName: "content30" },
-    { en: "Contact Robin Trade" },
+    { en: "Contact Coinmina" },
     { spn: "" },
     { fre: "" },
   ],
